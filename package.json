@@ -1,0 +1,34 @@
+{
+  "name": "preact-datepicker",
+  "version": "0.0.1",
+  "description": "A preact port of the Angular datepick from Kekeh (http://kekeh.github.io/mydatepicker/)",
+  "keywords": [
+    "preact",
+    "angular2",
+    "angular4",
+    "angular",
+    "datepicker",
+    "datepicker",
+    "port"],
+
+  "author": "Mukul Gupta <mukul.gupta@ymail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "preact": "^8.1.0",
+    "style-loader": "^0.17.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.5.1",
+    "webpack-uglify-harmony": "1.0.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "prod": "webpack --config webpack.prod.js --progress"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.18"
+  }
+}
